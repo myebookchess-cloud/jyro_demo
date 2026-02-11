@@ -44,7 +44,7 @@ def get_openai_client() -> OpenAI:
     """
     Create an OpenAI client using the OPENAI_API_KEY environment variable.
     """
-    api_key = "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"
+    api_key = os.getenv("OPENAI_KEY")
     if not api_key:
         raise RuntimeError(
             "OPENAI_API_KEY is not set. Please set it as an environment variable "
@@ -167,5 +167,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
