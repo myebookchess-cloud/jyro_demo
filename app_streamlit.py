@@ -207,8 +207,9 @@ def render_website_chat_page():
 
     # Display history as plain text blocks (including the latest turn)
     for msg in st.session_state.web_messages:
-        prefix = "You: " if msg["role"] == "user" else "Assistant: "
-        st.markdown(f"**{prefix}** {msg['content']}")
+        prefix = "	
+:iphone: You: " if msg["role"] == "user" else ":key: Assistant: "
+        st.markdown(f"{prefix} {msg['content']}")
 
 
 def render_pdf_chat_page():
@@ -278,8 +279,9 @@ def render_pdf_chat_page():
 
         # Show full Q&A history including the latest turn
         for msg in st.session_state.pdf_messages:
-            prefix = "You: " if msg["role"] == "user" else "Assistant: "
-            st.markdown(f"**{prefix}** {msg['content']}")
+            prefix = "	
+:iphone: You: " if msg["role"] == "user" else ":key: Assistant: "
+            st.markdown(f"{prefix} {msg['content']}")
 
     else:
         st.info("Upload a PDF file above to start asking questions about it.")
@@ -306,6 +308,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
