@@ -10,4 +10,4 @@ jobs:
       - run: pip install openai
       - run: python main.py
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_KEY }}
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
