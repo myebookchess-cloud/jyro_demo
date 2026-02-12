@@ -109,7 +109,8 @@ def main():
 
     st.markdown(
         "Si vous souhaitez **mettre en place ce type de chatbot sur votre site**, "
-        "vous pouvez contacter QalamIA directement au **+212 7 79 95 51 83**."
+        "vous pouvez contacter QalamIA directement sur WhatsApp : "
+        "[+212 7 79 95 51 83](https://wa.me/+212779955183)."
     )
 
     st.markdown("### 1. Indiquez l'URL de votre site")
@@ -158,7 +159,8 @@ def main():
             "- Cette démo est pensée pour un **responsable non technique** qui veut "
             "voir rapidement le résultat avant de décider d’une mise en place réelle.\n\n"
             "👉 Si, en testant cette page, vous vous dites « c’est exactement ce qu’il me faut », "
-            "appelez QalamIA au **+212 7 79 95 51 83** pour parler de votre projet."
+            "appelez ou écrivez à QalamIA sur WhatsApp : "
+            "[+212 7 79 95 51 83](https://wa.me/+212779955183) pour parler de votre projet."
         )
 
     st.markdown("### 2. Discutez avec le chatbot basé sur votre site")
@@ -205,13 +207,16 @@ def main():
     st.markdown("---")
     st.markdown(
         "Pour transformer cette démo en un **chatbot réellement intégré à votre site**, "
-        "contactez **QalamIA** au **+212 7 79 95 51 83**. Nous adaptons le chatbot à "
-        "votre activité, vos langues et vos objectifs (génération de contacts, "
-        "qualification de demandes, support client, etc.)."
+        "contactez **QalamIA** sur WhatsApp : "
+        "[+212 7 79 95 51 83](https://wa.me/+212779955183). "
+        "Nous adaptons le chatbot à votre activité, vos langues et vos objectifs "
+        "(génération de contacts, qualification de demandes, support client, etc.)."
     )
 
 
 if __name__ == "__main__":
     main()
+
+
 
 
